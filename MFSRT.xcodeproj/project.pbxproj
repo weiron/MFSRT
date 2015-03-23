@@ -57,9 +57,17 @@
 		92B3C8D21ABADEAE005EA81A /* MFSRT */ = {
 			isa = PBXGroup;
 			children = (
+				92B3C8DA1ABAEDBB005EA81A /* math */,
 				92B3C8D31ABADEAE005EA81A /* main.cpp */,
 			);
 			path = MFSRT;
+			sourceTree = "<group>";
+		};
+		92B3C8DA1ABAEDBB005EA81A /* math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
