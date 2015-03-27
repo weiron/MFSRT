@@ -10,7 +10,10 @@
 #include <fstream>
 #include "image.h"
 #include "Ray.h"
+#include "Shape.h"
 #include "DynArray.h"
+#include "RNG.h"
+#include "Triangle.h"
 
 using namespace std;
 

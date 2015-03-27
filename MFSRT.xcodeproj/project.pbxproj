@@ -10,6 +10,7 @@
 		92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B3C8D31ABADEAE005EA81A /* main.cpp */; };
 		92E4A79D1AC352A40052AB7F /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A79C1AC352A40052AB7F /* image.cpp */; };
 		92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7A01AC515670052AB7F /* ONB.cpp */; };
+		92E4A7A81AC577AC0052AB7F /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7A61AC577AC0052AB7F /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,11 @@
 		92E4A7A01AC515670052AB7F /* ONB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ONB.cpp; sourceTree = "<group>"; };
 		92E4A7A11AC515670052AB7F /* ONB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONB.h; sourceTree = "<group>"; };
 		92E4A7A31AC567DD0052AB7F /* DynArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynArray.h; sourceTree = "<group>"; };
+		92E4A7A41AC573190052AB7F /* Surface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
+		92E4A7A51AC574AF0052AB7F /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		92E4A7A61AC577AC0052AB7F /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		92E4A7A71AC577AC0052AB7F /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		92E4A7A91AC5D5120052AB7F /* RNG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNG.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,11 @@
 				92E4A7A01AC515670052AB7F /* ONB.cpp */,
 				92E4A7A11AC515670052AB7F /* ONB.h */,
 				92E4A7A31AC567DD0052AB7F /* DynArray.h */,
+				92E4A7A41AC573190052AB7F /* Surface.h */,
+				92E4A7A51AC574AF0052AB7F /* Shape.h */,
+				92E4A7A61AC577AC0052AB7F /* Triangle.cpp */,
+				92E4A7A71AC577AC0052AB7F /* Triangle.h */,
+				92E4A7A91AC5D5120052AB7F /* RNG.h */,
 			);
 			path = MFSRT;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 				92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */,
 				92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */,
 				92E4A79D1AC352A40052AB7F /* image.cpp in Sources */,
+				92E4A7A81AC577AC0052AB7F /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
