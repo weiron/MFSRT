@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include "image.h"
+#include "Ray.h"
+#include "DynArray.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    Ray ray(Vector3(0, 0, 1), Vector3(1, 4, 5));
+    cout << ray;
     return 0;
 }

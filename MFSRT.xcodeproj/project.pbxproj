@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B3C8D31ABADEAE005EA81A /* main.cpp */; };
 		92E4A79D1AC352A40052AB7F /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A79C1AC352A40052AB7F /* image.cpp */; };
+		92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7A01AC515670052AB7F /* ONB.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,11 @@
 		92E4A79A1AC235DD0052AB7F /* rgb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rgb.h; sourceTree = "<group>"; };
 		92E4A79B1AC3522E0052AB7F /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
 		92E4A79C1AC352A40052AB7F /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
+		92E4A79E1AC4F5290052AB7F /* Vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		92E4A79F1AC4F8970052AB7F /* Ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		92E4A7A01AC515670052AB7F /* ONB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ONB.cpp; sourceTree = "<group>"; };
+		92E4A7A11AC515670052AB7F /* ONB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONB.h; sourceTree = "<group>"; };
+		92E4A7A31AC567DD0052AB7F /* DynArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,11 @@
 				92E4A79A1AC235DD0052AB7F /* rgb.h */,
 				92E4A79B1AC3522E0052AB7F /* image.h */,
 				92E4A79C1AC352A40052AB7F /* image.cpp */,
+				92E4A79E1AC4F5290052AB7F /* Vector3.h */,
+				92E4A79F1AC4F8970052AB7F /* Ray.h */,
+				92E4A7A01AC515670052AB7F /* ONB.cpp */,
+				92E4A7A11AC515670052AB7F /* ONB.h */,
+				92E4A7A31AC567DD0052AB7F /* DynArray.h */,
 			);
 			path = MFSRT;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */,
 				92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */,
 				92E4A79D1AC352A40052AB7F /* image.cpp in Sources */,
 			);
