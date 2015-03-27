@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B3C8D31ABADEAE005EA81A /* main.cpp */; };
+		92E4A79D1AC352A40052AB7F /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A79C1AC352A40052AB7F /* image.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		92B3C8D01ABADEAE005EA81A /* MFSRT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MFSRT; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B3C8D31ABADEAE005EA81A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92E4A79A1AC235DD0052AB7F /* rgb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rgb.h; sourceTree = "<group>"; };
+		92E4A79B1AC3522E0052AB7F /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		92E4A79C1AC352A40052AB7F /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +61,12 @@
 		92B3C8D21ABADEAE005EA81A /* MFSRT */ = {
 			isa = PBXGroup;
 			children = (
-				92B3C8DA1ABAEDBB005EA81A /* math */,
 				92B3C8D31ABADEAE005EA81A /* main.cpp */,
+				92E4A79A1AC235DD0052AB7F /* rgb.h */,
+				92E4A79B1AC3522E0052AB7F /* image.h */,
+				92E4A79C1AC352A40052AB7F /* image.cpp */,
 			);
 			path = MFSRT;
-			sourceTree = "<group>";
-		};
-		92B3C8DA1ABAEDBB005EA81A /* math */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */,
+				92E4A79D1AC352A40052AB7F /* image.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +240,7 @@
 				92B3C8D91ABADEAE005EA81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
