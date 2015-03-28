@@ -11,6 +11,7 @@
 		92E4A79D1AC352A40052AB7F /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A79C1AC352A40052AB7F /* image.cpp */; };
 		92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7A01AC515670052AB7F /* ONB.cpp */; };
 		92E4A7A81AC577AC0052AB7F /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7A61AC577AC0052AB7F /* Triangle.cpp */; };
+		92E4A7AC1AC5E9810052AB7F /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A7AA1AC5E9810052AB7F /* Sphere.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,9 @@
 		92E4A7A61AC577AC0052AB7F /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		92E4A7A71AC577AC0052AB7F /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		92E4A7A91AC5D5120052AB7F /* RNG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNG.h; sourceTree = "<group>"; };
+		92E4A7AA1AC5E9810052AB7F /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		92E4A7AB1AC5E9810052AB7F /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		92E4A7AF1AC698DB0052AB7F /* output1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = output1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		92B3C8C71ABADEAE005EA81A = {
 			isa = PBXGroup;
 			children = (
+				92E4A7AD1AC698730052AB7F /* output */,
 				92B3C8D21ABADEAE005EA81A /* MFSRT */,
 				92B3C8D11ABADEAE005EA81A /* Products */,
 			);
@@ -87,8 +92,18 @@
 				92E4A7A61AC577AC0052AB7F /* Triangle.cpp */,
 				92E4A7A71AC577AC0052AB7F /* Triangle.h */,
 				92E4A7A91AC5D5120052AB7F /* RNG.h */,
+				92E4A7AA1AC5E9810052AB7F /* Sphere.cpp */,
+				92E4A7AB1AC5E9810052AB7F /* Sphere.h */,
 			);
 			path = MFSRT;
+			sourceTree = "<group>";
+		};
+		92E4A7AD1AC698730052AB7F /* output */ = {
+			isa = PBXGroup;
+			children = (
+				92E4A7AF1AC698DB0052AB7F /* output1.jpg */,
+			);
+			name = output;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +165,7 @@
 				92E4A7A21AC515670052AB7F /* ONB.cpp in Sources */,
 				92B3C8D41ABADEAE005EA81A /* main.cpp in Sources */,
 				92E4A79D1AC352A40052AB7F /* image.cpp in Sources */,
+				92E4A7AC1AC5E9810052AB7F /* Sphere.cpp in Sources */,
 				92E4A7A81AC577AC0052AB7F /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
